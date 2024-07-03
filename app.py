@@ -14,7 +14,7 @@ from lyzr_automata.tasks.util_tasks import summarize_task
 from lyzr_automata.tools.prebuilt_tools import linkedin_image_text_post_tool
 
 # Streamlit UI
-st.title("Automated LinkedIn Post Pipeline")
+st.title("Automated LinkedIn Post Pipeline by Shafi")
 st.write("Enter the necessary API keys and LinkedIn credentials to run the pipeline.")
 
 open_ai_api_key = st.text_input("OpenAI API Key", type="password")
